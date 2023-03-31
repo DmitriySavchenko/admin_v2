@@ -1,9 +1,8 @@
 <script setup lang="ts">
-const r = '  '
 </script>
 
 <template>
-  <div>
-    Main page
-  </div>
+  <RouterView>
+    <slot />
+  </RouterView>
 </template>
